@@ -1,0 +1,4 @@
+urllib3
+websocket
+websocket-client
+pandas
