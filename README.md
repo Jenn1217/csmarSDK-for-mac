@@ -1,4 +1,4 @@
-# CSMAR Python SDK (macOS / Linux)
+# CSMAR SDK (macOS / Linux)
 
 一个适用于 **macOS 和 Linux** 的 CSMAR Python SDK 整理版本。
 
