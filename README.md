@@ -4,18 +4,6 @@
 
 由于 CSMAR 官方提供的 Python SDK 更偏向 **Windows 环境**，在 macOS / Linux 系统中使用时配置不够友好。本项目对 SDK 进行了整理，使其能够在 **跨平台 Python 环境中更方便地使用**。
 
-该 SDK 的调用方式类似常见的数据接口库，例如：
-
-* `pandas`
-* `tushare`
-
-适用于：
-
-* 金融数据研究
-* 量化投资研究
-* 资产定价研究
-* 金融机器学习
-
 ---
 
 # 环境要求
@@ -82,39 +70,6 @@ site-packages
  ├── numpy
  ├── csmarapi
 ```
-
----
-
-# 使用示例
-
-```python
-import csmarapi
-
-api = csmarapi.CsmarApi()
-
-# 登录
-api.login(
-    username="your_account",
-    password="your_password"
-)
-
-# 查询数据
-data = api.query("STK_LISTEDCOINFO")
-
-print(data.head())
-```
----
-
-# 常见用途
-
-CSMAR 数据常用于：
-
-* A股公司财务数据研究
-* 因子投资研究
-* 资产定价研究
-* 宏观金融研究
-* 金融机器学习
-
 ---
 
 # 免责声明
